@@ -1,0 +1,52 @@
+# Maven build directory
+/target/
+
+# Compiled Java classes
+*.class
+
+# Logs
+*.log
+
+# IDE files
+.idea/
+*.iml
+*.iws
+.classpath
+.project
+.settings/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment or config files with secrets
+*.env
+application.properties
+application.yml
+
+# Spring Boot specific
+spring.log
+
+# PostgreSQL data directory (if any local data folders)
+data/
+
+# JAR/WAR/EAR files
+*.jar
+*.war
+*.ear
+
+# Angular build output (if frontend is in the same repo)
+/dist/
+/node_modules/
+
+# NPM debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Others
+*.log
+*.tmp
